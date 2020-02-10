@@ -5,7 +5,7 @@ Schedule is [here](http://isw3.naist.jp/IS/PubWG/Spring2020/index-ja.html#schedu
 # Contents
 <pre>
 .
-├── YOLOv3 #YoLov3
+├── ObjectDetection #YOLOv3
 │   ├── cfg
 │   ├── data
 │   │   └── Torii #学習用・テスト用データセットを配置する．
@@ -78,7 +78,7 @@ GitHubの基本を押さえて，環境を構築する．
 ####  0.  ターミナルを開く．
   
 #### 1. 任意のディレクトリに本リポジトリをクローンする．
-    $git clone https://github.com/yohe4274/2020SpringSeminar.git
+    $git clone https://github.com/NAIST2020SpringSeminarUbi/2020SpringSeminar.git
 
 - 各コマンドの説明    
     - git clone：リモートリポジトリをローカルリポジトリに複製する．
