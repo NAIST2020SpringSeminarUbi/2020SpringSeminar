@@ -5,7 +5,7 @@ Schedule is [here](http://isw3.naist.jp/IS/PubWG/Spring2020/index-ja.html#schedu
 # Contents
 <pre>
 .
-├── ObjectDetection #YoLov3によるファインチューニングディレクトリ
+├── YOLOv3 #YoLov3
 │   ├── cfg
 │   ├── data
 │   │   └── Torii #学習用・テスト用データセットを配置する．
