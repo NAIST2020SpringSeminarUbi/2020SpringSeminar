@@ -110,11 +110,13 @@ OSSのアノンテーションツールである，LabelImgを用いて物体検
 - Anaconda3が入っている人は以下の手順で行う．<br>
 ```
 $cd ./2020SpringSeminar/labelImg
-$conda env create -n labelImg -f labelImg_env.yml
-$conda activate labelImg
+$conda env create -n labelImg -f labelImg_env.yml #仮想環境をymlファイルから作成
+$conda activate labelImg #仮想環境(labelImg)に入る
+$conda info -e #自分が使用している仮想環境を確認
 $python3 labelImg.py 
 #確認３：GUIで実行可能か確認. 確認できたら閉じてメンターに知らせる．
 ```    
+
 
 
 - Macユーザ(Anaconda3なし)は以下の手順で行う．<br>
