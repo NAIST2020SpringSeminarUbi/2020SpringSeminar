@@ -114,7 +114,18 @@ OSSのアノンテーションツールである，LabelImgを用いて物体検
 - オブジェクトが写っていない写真や，イラストなどの実写真でないもの(特にPagodaチームは注意)はデータセットから削除する．(紛らわしいものはメンターに聞く)
 
 #### 1. Labelimgのビルド
-- Macユーザは以下の手順で行う．<br>
+
+- Anaconda3が入っている人は以下の手順で行う．<br>
+```
+$cd ./2020SpringSeminar/labelImg
+$conda env create -n labelImg -f labelImg_env.yml
+$conda activate labelImg
+$python3 labelImg.py 
+#確認３：GUIで実行可能か確認. 確認できたら閉じてメンターに知らせる．
+```    
+
+
+- Macユーザ(Anaconda3なし)は以下の手順で行う．<br>
 ```
 $cd ./2020SpringSeminar/labelImg
 $pip3 install pyqt5 lxml # Install qt and lxml by pip
@@ -124,7 +135,7 @@ $python3 labelImg.py
 ```    
 
 
-- Windowsユーザは以下の手順で行う．<br>
+- Windows(Anaconda3なし)ユーザは以下の手順で行う．<br>
 ```
 $cd ./2020SpringSeminar/labelImg
 $pip3 install pyqt5 lxml # Install qt and lxml by pip
