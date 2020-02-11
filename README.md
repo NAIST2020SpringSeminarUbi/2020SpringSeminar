@@ -25,15 +25,7 @@ Schedule is [here](http://isw3.naist.jp/IS/PubWG/Spring2020/index-ja.html#schedu
 │      ├── CarNumberPlate #共同研究先の沖縄ドラレコ動画
 │      └── Pagoda #共同研究先の京都ドラレコ動画
 └── labelImg #アノテーションソフト
-    ├── build-tools
-    ├── data
-    ├── demo
-    ├── libs
-    ├── requirements
-    ├── resources
-    │   ├── icons
-    │   └── strings
-    └── tests
+  
 
 </pre>
  
