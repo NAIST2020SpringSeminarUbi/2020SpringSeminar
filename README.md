@@ -162,6 +162,7 @@ $python3 labelImg.py ../Resource/CarNumberPlate ../Resource/CarNumberPlate.txt
 4. YOLOv3に学習させるデータセットをObjectDetection/data以下に配置する．
 ```
 $cd 2020SpringSeminar
+!下のコマンドは使わない!
 $cp Resource/CarNumberPlate/* ObjectDetection/data/CarNumberPlate/
 $cp Resource/CarNumberPlate_VB/* ObjectDetection/data/CarNumberPlate/
 ```
@@ -200,7 +201,7 @@ ObjectDetection内のdata,cfgフォルダを編集して，リモートリポジ
 ./2020SpringSeminar/ObjectDetection/cfg/~~.cfg
 ./2020SpringSeminar/ObjectDetection/cfg/~~.data
 ./2020SpringSeminar/ObjectDetection/cfg/~~-test.txt #python/divide.pyが便利(perentage_testで学習テストの割合を変更可能．)
-./2020SpringSeminar/ObjectDetection/cfg/~~-train.txt #split.pyが便利
+./2020SpringSeminar/ObjectDetection/cfg/~~-train.txt #python/divide.pyが便利(perentage_testで学習テストの割合を変更可能．)
 ./2020SpringSeminar/ObjectDetection/data/.names
 ```
 - 各コマンドの説明 (基本的にadd→commit→pushの順に行う)
