@@ -28,16 +28,16 @@ else:
 
 
 
-    train_w = open(path_train, 'w')
-    test_w = open(path_test, 'w')
+    train_w = open(path_train, 'w', encoding = "utf-8")
+    test_w = open(path_test, 'w', encoding = "utf-8")
 
     for i in range(len(img_files)):
         if counter == index_test:
             counter = 1
-            test_w.write(img_files[i].split('./')[1]+"\n" , encoding = "Shift-jis")
+            test_w.write(img_files[i].split('./')[1]+"\n")
             test_num += 1
         else:
-            train_w.write(img_files[i].split('./')[1]+"\n", encoding = "Shift-jis")
+            train_w.write(img_files[i].split('./')[1]+"\n")
             counter = counter + 1
             train_num += 1
 
