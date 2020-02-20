@@ -1,9 +1,9 @@
 import os
 import glob
 
-img_files = sorted(glob.glob("../data/Pagoda/*.jpg"))
+img_files = sorted(glob.glob("..\data\Pagoda\*.jpg"))
 print(img_files[0])
-txt_files = sorted(glob.glob("../data/Pagoda/*.txt"))
+txt_files = sorted(glob.glob("..\data\Pagoda\*.txt"))
 print("The number of image-files is", len(img_files), ".")
 print("The number of annotaion-files is", len(txt_files), ".")
 
@@ -24,8 +24,8 @@ else:
 
 
     # 学習画像，テスト画像を示すパスを以下のテキストファイルに保存する．
-    path_train = '../cfg/JapaneseObject-train.txt'
-    path_test = '../cfg/JapaneseObject-test.txt'
+    path_train = '..\cfg\JapaneseObject-train.txt'
+    path_test = '..\cfg\JapaneseObject-test.txt'
 
 
 
