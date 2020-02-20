@@ -34,10 +34,10 @@ else:
     for i in range(len(img_files)):
         if counter == index_test:
             counter = 1
-            test_w.write(img_files[i].split('./')[1]+"\n" , encoding = "shift-jis")
+            test_w.write(img_files[i].split('./')[1]+"\n")
             test_num += 1
         else:
-            train_w.write(img_files[i].split('./')[1]+"\n", encoding = "shift-jis")
+            train_w.write(img_files[i].split('./')[1]+"\n")
             counter = counter + 1
             train_num += 1
 
