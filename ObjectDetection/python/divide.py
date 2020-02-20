@@ -1,13 +1,13 @@
+#coding:utf-8
 import os
 import glob
 
-img_files = sorted(glob.glob("../data/Torii/*.jpg"))
-txt_files = sorted(glob.glob("../data/Torii/*.txt"))
+img_files = sorted(glob.glob("../data/CarNumberPlate/*.jpg"))
+txt_files = sorted(glob.glob("../data/CarNumberPlate/*.txt"))
 print("The number of image-files is", len(img_files), ".")
 print("The number of annotaion-files is", len(txt_files), ".")
 
-
-# 例外処理
+#例外処理
 if len(img_files) != len(txt_files):
     print("the number of files is not same.")
 else:
@@ -23,8 +23,8 @@ else:
 
 
     # 学習画像，テスト画像を示すパスを以下のテキストファイルに保存する．
-    path_train = '../cfg/JapaneseObject-train.txt'
-    path_test = '../cfg/JapaneseObject-test.txt'
+    path_train = '../cfg/CarNumberPlate-train.txt'
+    path_test = '../cfg/CarNumberPlate-test.txt'
 
 
 
