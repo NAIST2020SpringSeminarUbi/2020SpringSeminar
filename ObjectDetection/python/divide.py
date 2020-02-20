@@ -2,6 +2,7 @@ import os
 import glob
 
 img_files = sorted(glob.glob("../data/Pagoda/*.jpg"))
+print(img_files[0])
 txt_files = sorted(glob.glob("../data/Pagoda/*.txt"))
 print("The number of image-files is", len(img_files), ".")
 print("The number of annotaion-files is", len(txt_files), ".")
