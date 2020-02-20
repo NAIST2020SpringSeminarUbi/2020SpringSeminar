@@ -102,7 +102,6 @@ data/Pagoda/三重の塔_000158.jpg
 data/Pagoda/三重の塔_000159.jpg
 data/Pagoda/三重の塔_000161.jpg
 data/Pagoda/三重の塔_000163.jpg
-data/Pagoda/三重の塔_000164.jpg
 data/Pagoda/三重の塔_000165.jpg
 data/Pagoda/三重の塔_000167.jpg
 data/Pagoda/三重の塔_000168.jpg
