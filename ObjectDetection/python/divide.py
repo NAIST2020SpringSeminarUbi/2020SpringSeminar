@@ -28,8 +28,8 @@ else:
 
 
 
-    train_w = open(path_train, 'w', encoding = "utf-8")
-    test_w = open(path_test, 'w', encoding = "utf-8")
+    train_w = open(path_train, 'w', encoding = "shift-jis")
+    test_w = open(path_test, 'w', encoding = "shift-jis")
 
     for i in range(len(img_files)):
         if counter == index_test:
