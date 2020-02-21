@@ -2,6 +2,7 @@ import os
 import glob
 
 img_files = sorted(glob.glob("../data/Pagoda/*.jpg"))
+print(img_files)
 txt_files = sorted(glob.glob("../data/Pagoda/*.txt"))
 print("The number of image-files is", len(img_files), ".")
 print("The number of annotaion-files is", len(txt_files), ".")
@@ -34,6 +35,7 @@ else:
     for i in range(len(img_files)):
         if counter == index_test:
             counter = 1
+            print(img_files[i].split('./'))
             test_w.write(img_files[i].split('./')[1]+"\n")
             test_num += 1
         else:
