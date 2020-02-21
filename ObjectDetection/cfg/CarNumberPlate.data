@@ -1,0 +1,5 @@
+classes= 1
+train  = cfg/CarNumberPlate-train.txt
+valid  = cfg/CarNumberPlate-test.txt
+names = data/CarNumberPlate.names
+backup = backup
